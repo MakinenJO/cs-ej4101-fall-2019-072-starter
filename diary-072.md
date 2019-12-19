@@ -1,13 +1,17 @@
 # Motivation for this course
 
-### Why I decided to take this course?
-For several years I have heard the term devOps in various places and contexts, but never really understood its meaning. I knew it had something to do with managing the software development process, but that is where my understanding ends. 
-### What I expected to learn?
-some tools, how to use them - why is it needed - 
+#### Why I decided to take this course?
+For several years I have heard the term devOps in various places and contexts, but never really understood its meaning. I knew it had something to do with managing the software development process, but that is where my understanding ends. So, naturally I wanted to get a deeper insight at the subject and happened to stumble upon this course. This seemed like a great starting point, so I could get a clearer understanding of devOps, and even get a clue whether this was something I could possibly want to work with in the future. I also did not have a lot of free time on my schedule, but I figured a 1 credit course would be light enough to handle among my other responsibilities.
+#### What I expected to learn?
+I expected to learn the basic principles of devOps, the tools and techniques used, and how to apply them. And, of course, why is devOps needed/useful in the first place. As this is only a 1 credit course, I assumed that the learning content would be very basic and on an introductory level. In other words, I did not expect to become a devOps wizard after this course, but rather have a good enough base understanding, wich would provide a good basis for learning more in the future. I did hope that there would be some hands on work too, so I could get a little familiar with the tools and workflow, and luckily this turned out to be true.
 
 # What I learned on this course
 
-### What I learned?
-DevOps is about managing the steps that developed source code is taken through to come up with a finished product - and making this process as fast, efficient, and reliable as possible. 
-Configure
-### What was most challenging?
+#### What I learned?
+Key concepts in devOps are continuous integration (CI), continuous delivery (CD) and continuous deployment (also CD, but referenced here as CDep). CI means that developer submit their code to a central repository frequently, so the repo always has the latest code. CI is a prerequisite for CD. In CD, the code is continuously built and tested, i.e. always when a new change is committed. This means that at any point in time, the code should be at a state that it is ready for release, assuming the build succeeded. CD is a prerequisite for CDep, which means that the latest successful build is actually also released to production automatically.
+
+DevOps is fundamentally about managing the steps that developed source code is taken through to come up with a finished product - and making this process as fast, efficient, and reliable as possible. A crucial part of this is automation, which streamlines the process and removes unnecessary and repetitive huoman. Automation is what concretely enables continuous delivery and continuous deployment. There are many different tools for this purpose, such as Jenkins and Travis CI.
+
+As I discovered, devOps is not only about configuring the build and deployment process, but it also includes the company culture, meaning that often the way of thinking within teams needs change to truly benefit from devOps. DevOps also requires measurement of the process in order to find bottlenecks and verify improvements, and sharing information within and between teams to keep everyone up to date. All these four combined, Culture, Automation, Measurement, and Sharing are known as the CAMS model in devOps.
+#### What was most challenging?
+The most challenging part for me was getting acquainted with the tools, as web development is very new to me. Ideally I would have liked to complete the advanced project, but since id didn't get far with and time was running out, I opted for the starter project instead. Setting up this starter project felt considerably easier to me.
